@@ -1,0 +1,5 @@
+ {% for entry in entries %}
+        <div class="post">
+            <p>{{ entry.text|truncatechars:200 }}</p>
+        </div>
+    {% endfor %}
